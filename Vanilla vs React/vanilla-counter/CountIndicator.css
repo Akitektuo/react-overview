@@ -1,0 +1,37 @@
+.countIndicator {
+    display: inline;
+    color: white;
+    background-color: black;
+    transition: all 0.3s ease-in-out;
+    padding: .2em;
+    border-radius: .3em;
+}
+
+.countIndicator.violet {
+    background-color: violet;
+}
+
+.countIndicator.indigo {
+    background-color: indigo;
+}
+
+.countIndicator.blue {
+    background-color: blue;
+}
+
+.countIndicator.green {
+    background-color: green;
+}
+
+.countIndicator.yellow {
+    background-color: yellow;
+    color: black;
+}
+
+.countIndicator.orange {
+    background-color: orange;
+}
+
+.countIndicator.red {
+    background-color: red;
+}
