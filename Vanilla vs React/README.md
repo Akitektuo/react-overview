@@ -1,4 +1,4 @@
-# Vanilla vs React
+# Vanilla vs React :baby:
 A small project to highlight the differences between Vanilla JS using modules and basic React.
 
 ## Objectives
