@@ -15,10 +15,6 @@ const checkGameLogic = (board: BoardType, announceStateAndReset: (message: strin
         return;
     }
 
-    if (!board.some(row => row.includes(BoxStateEnum.EMPTY))) {
-        announceStateAndReset("It's a tie...");
-    }
-
     const winner = checkAllEqual(board[0][0], board[0][1], board[0][2]) ||
         checkAllEqual(board[1][0], board[1][1], board[1][2]) ||
         checkAllEqual(board[2][0], board[2][1], board[2][2]) ||
@@ -29,7 +25,11 @@ const checkGameLogic = (board: BoardType, announceStateAndReset: (message: strin
         checkAllEqual(board[0][2], board[1][1], board[2][0]);
 
     if (winner) {
-        announceStateAndReset(`${winner} wins!`);
+        return announceStateAndReset(`${winner} wins!`);
+    }
+
+    if (!board.some(row => row.includes(BoxStateEnum.EMPTY))) {
+        announceStateAndReset("It's a tie...");
     }
 }
 
