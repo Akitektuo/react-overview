@@ -1,0 +1,12 @@
+.turnIndicator {
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    padding: .5em 1em;
+    border-radius: 1em;
+
+    &.oTurn {
+        background-color: white;
+        color: black;
+    }
+}

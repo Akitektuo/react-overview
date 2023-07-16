@@ -23,3 +23,5 @@ This repository contains information and examples of important libraries, tools 
 | sass | Enables scss processing and modules |
 | classnames | A small JS library that makes defining conditional class names easier |
 | @types/classnames | The TypeScript types of the above mentioned package |
+| mobx | Core package for MobX, a simple and scalable state manager |
+| mobx-react | Additional functionalities for React on top of the MobX Core library |
