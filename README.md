@@ -17,3 +17,9 @@ This repository contains information and examples of important libraries, tools 
 | npm install _`<package>`_ | Installs the wanted _`<package>`_ in the current project |
 | npm start | Starts the application if used in the root of the project. |
 
+## Used npm packages
+| Package | Usage |
+| ------- | ----- |
+| sass | Enables scss processing and modules |
+| classnames | A small JS library that makes defining conditional class names easier |
+| @types/classnames | The TypeScript types of the above mentioned package |

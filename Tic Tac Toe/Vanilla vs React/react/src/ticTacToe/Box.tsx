@@ -12,7 +12,7 @@ export const Box = ({ state, onClick }: Props) => {
         if (!state) {
             onClick?.();
         }
-    }, [state]);
+    }, [state, onClick]);
 
     return(
         <div className="box" onClick={handleClick}>{state}</div>
