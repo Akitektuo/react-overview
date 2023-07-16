@@ -1,0 +1,12 @@
+.box {
+    background-color: white;
+    min-width: 1em;
+    min-height: 1em;
+    padding: .5em;
+    margin: .05em;
+    font-size: min(10vh, 10vw);
+    font-weight: bolder;
+    line-height: 1;
+    cursor: pointer;
+    border-radius: .1em;
+}
