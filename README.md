@@ -25,3 +25,4 @@ This repository contains information and examples of important libraries, tools 
 | @types/classnames | The TypeScript types of the above mentioned package |
 | mobx | Core package for MobX, a simple and scalable state manager |
 | mobx-react | Additional functionalities for React on top of the MobX Core library |
+| react-router-dom | The most common library for adding routing to React (uses the [History API](https://developer.mozilla.org/en-US/docs/Web/API/History_API)) |
