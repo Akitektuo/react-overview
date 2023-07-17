@@ -1,7 +1,7 @@
 import { useContext, useEffect } from "react";
 import { TurnIndicator } from "./components/TurnIndicator";
 import { GameBoard } from "./components/GameBoard";
-import { AlertDialog } from "../../components/alertDialog/AlertDialog";
+import { AlertDialog } from "../../../components/alertDialog/AlertDialog";
 import { useGameLogic } from "./hooks/UseGameLogic";
 import { TicTacToeGameContext } from "./TicTacToeGame.store";
 import { observer } from "mobx-react";

@@ -1,3 +1,5 @@
+@use "../../shared/Colors.scss";
+
 .alertDialog {
     z-index: 1000;
     position: fixed;
@@ -14,7 +16,7 @@
         align-self: flex-end;
         background-color: transparent;
         border: none;
-        color: #00aeef;
+        color: Colors.$ThemeLight;
         font-weight: bolder;
         padding: .5em;
         cursor: pointer;

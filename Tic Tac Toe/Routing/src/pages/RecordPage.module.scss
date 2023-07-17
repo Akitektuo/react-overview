@@ -1,0 +1,18 @@
+.recordPage {
+    padding: 4rem 0 2rem 0;
+    max-width: 64rem;
+    margin: 0 auto;
+
+    table {
+        width: 100%;
+
+        td, th {
+            width: 25%;
+            text-align: center;
+        }
+    }
+
+    h2 {
+        color: red;
+    }
+}

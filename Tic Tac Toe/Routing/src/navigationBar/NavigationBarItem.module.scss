@@ -1,0 +1,13 @@
+@use "../shared/Colors.scss";
+
+.navigationBarItem {
+    background-color: white;
+    padding: .5em 1em;
+    border-radius: .7em;
+    font-weight: bold;
+    margin: 0 1em;
+
+    &.active {
+        background-color: Colors.$ThemeLight;
+    }
+}
